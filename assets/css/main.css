@@ -149,7 +149,7 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #74797f;
+		color: #FFA559;
 		font-weight: 300;
 		letter-spacing: -0.025em;
 		line-height: 1.4;
@@ -491,6 +491,10 @@
 		border-bottom: none;
 		color: inherit;
 		position: relative;
+	}
+
+	.privacy:hover{
+		color: #FFA559 !important;
 	}
 
 		.icon:before {
