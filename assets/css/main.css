@@ -957,7 +957,7 @@
 		}
 
 		#wrapper .inner {
-			max-width: 30em;
+			max-width: 100%;
 		}
 
 		#wrapper footer {
@@ -1286,6 +1286,14 @@
 				padding: 1.5em 0;
 			}
 
+			.logo {
+				width: 230px;
+			}
+
+			.stores {
+				width: 200px !important;
+			}
+
 		}
 
 		@media screen and (orientation: portrait) {
@@ -1307,3 +1315,12 @@
 		bottom: 0;
 		right: 0;
 	}
+
+
+.logo {
+	margin-bottom: 20px;
+}
+
+.headline {
+	max-width: 100%;
+}
